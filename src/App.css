@@ -14,6 +14,21 @@
   color: white;
 }
 
+/* Media query for mobile devices */
+@media only screen and (max-width: 600px) {
+  .App-header {
+    padding: 20px; /* Add padding for better spacing on mobile */
+    text-align: center; /* Center align text on mobile */
+  }
+  .contact-details {
+    line-height: 1.2; /* Adjust line height for less space between lines */
+  }
+
+  .contact-details a {
+    display: block; /* Display the LinkedIn link as a block to separate it */
+    margin-top: 5px; /* Add some space between each line */
+  }
+}
 
 .App-logo {
   height: 40vmin;
@@ -48,4 +63,12 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.intro-style {
+  width: calc(100% - 70px);
+}
+
+.experience-style {
+
 }
