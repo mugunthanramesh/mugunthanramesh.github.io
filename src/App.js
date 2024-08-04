@@ -11,12 +11,11 @@ function GlassyWebsite() {
                 <Container>
                     <LeftContainer>
                         <NameHeader>Mugunthan Ramesh</NameHeader>
+                        <br/>
+                        <br/>
+                        <Intro/>
                     </LeftContainer>
                     <RightContainer>
-                        <Intro/>
-                        <br/>
-                        <br/>
-                        <br/>
                         <br/>
                         <Experience/>
                     </RightContainer>
