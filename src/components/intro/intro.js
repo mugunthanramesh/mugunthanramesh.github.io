@@ -11,7 +11,7 @@ export function Intro() {
             </section>
             <br/>
             <ResumeLink>
-                <a href="/Mugunthan R.pdf">My Resume <span className="link-arrow">↗</span></a>
+                <a href="/Mugunthan%20R.pdf">My Resume <span className="link-arrow">↗</span></a>
             </ResumeLink>
         </IntroContainer>
     );
@@ -43,6 +43,7 @@ const ResumeLink = styled.a`
     color: rgba(225, 225, 225, 1);
     font-size: 18px;
     font-weight: bold;
+    text-decoration: none;
     
     a:hover {
         color: #61dafb;
@@ -50,6 +51,7 @@ const ResumeLink = styled.a`
     
     a {
         text-decoration: none;
+        color: white;
     }
 
     a .link-arrow {
@@ -61,5 +63,4 @@ const ResumeLink = styled.a`
         transform: translateY(-5px);
         color: #61dafb;
     }
-
 `;

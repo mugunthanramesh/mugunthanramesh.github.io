@@ -1,7 +1,7 @@
 // src/components/Experience.js
 import React from 'react';
 import {ExperienceItem} from "./experience-item";
-import {ExperienceList} from "../../../config/experience-list";
+import {ExperienceList} from "../../config/experience-list";
 import styled from "styled-components";
 
 export const Experience = () => {

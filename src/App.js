@@ -1,8 +1,9 @@
 import React from 'react';
 import {Container, LeftContainer, RightContainer} from "./components/Container";
-import {Intro} from "./components/personal/intro/intro";
-import {Experience} from "./components/personal/experience/experience";
-import {NameHeader} from "./components/personal/intro/nameHeader";
+import {Intro} from "./components/intro/intro";
+import {Experience} from "./components/experience/experience";
+import {NameHeader} from "./components/intro/nameHeader";
+import {SocialLinks} from "./components/social-links";
 
 
 function GlassyWebsite() {
@@ -14,6 +15,7 @@ function GlassyWebsite() {
                         <br/>
                         <br/>
                         <Intro/>
+                        <SocialLinks/>
                     </LeftContainer>
                     <RightContainer>
                         <br/>

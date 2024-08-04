@@ -25,7 +25,7 @@ export const Container = styled.div`
 `;
 
 export const LeftContainer = styled.div`
-    width: 48%;
+    width: 40%;
     padding: 20px;
     position: sticky;
     top: 0;
@@ -33,7 +33,7 @@ export const LeftContainer = styled.div`
 `;
 
 export const RightContainer = styled.div`
-    width: 48%;
+    width: 60%;
     padding: 20px;
     overflow-y: auto;
 `;
