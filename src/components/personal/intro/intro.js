@@ -11,7 +11,7 @@ export function Intro() {
             </section>
             <br/>
             <ResumeLink>
-                <a href="../../../../public/Mugunthan R.pdf">My Resume <span className="link-arrow">↗</span></a>
+                <a href="/Mugunthan R.pdf">My Resume <span className="link-arrow">↗</span></a>
             </ResumeLink>
         </IntroContainer>
     );
