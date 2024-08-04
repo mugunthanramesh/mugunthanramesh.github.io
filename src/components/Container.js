@@ -27,13 +27,24 @@ export const Container = styled.div`
 export const LeftContainer = styled.div`
     width: 40%;
     padding: 20px;
-    position: sticky;
-    top: 0;
-    left: 0;
+    overflow: hidden;
 `;
 
 export const RightContainer = styled.div`
     width: 60%;
     padding: 20px;
     overflow-y: auto;
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* Internet Explorer 10+ */
+
+    &::-webkit-scrollbar {
+        display: none; /* Chrome, Safari, Opera */
+    }
+`;
+
+export const Wrapper = styled.div`
+  display: flex;
+  background-color: #10172a;
+  height: 100vh;
+  overflow: hidden;
 `;

@@ -1,15 +1,16 @@
 import React from 'react';
-import {Container, LeftContainer, RightContainer} from "./components/Container";
+import {Container, LeftContainer, RightContainer, Wrapper} from "./components/Container";
 import {Intro} from "./components/intro/intro";
 import {Experience} from "./components/experience/experience";
 import {NameHeader} from "./components/intro/nameHeader";
 import {SocialLinks} from "./components/social-links";
 import CursorCircle from "./components/cursor-gradient";
+import Education from "./components/education/education";
 
 
 function GlassyWebsite() {
     return (
-        <div style={{ backgroundColor: "#10172a"}}>
+        <Wrapper>
             <CursorCircle/>
                 <Container>
                     <LeftContainer>
@@ -22,10 +23,12 @@ function GlassyWebsite() {
                     <RightContainer>
                         <br/>
                         <Experience/>
+                        <br/>
+                        <Education/>
                     </RightContainer>
                     {/* Add more GlassContainer components as needed */}
                 </Container>
-        </div>
+        </Wrapper>
     );
 }
 

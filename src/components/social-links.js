@@ -11,10 +11,10 @@ export function SocialLinks() {
 }
 
 const SocialContainer = styled.div`
-    position: absolute;
+    position: fixed;
     padding: 20px 0;
     bottom: 5%;
-    left: 35%;
+    left: 18%;
     z-index: 1000;
 
     a img {
