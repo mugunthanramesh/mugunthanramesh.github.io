@@ -4,11 +4,13 @@ import {Intro} from "./components/intro/intro";
 import {Experience} from "./components/experience/experience";
 import {NameHeader} from "./components/intro/nameHeader";
 import {SocialLinks} from "./components/social-links";
+import CursorCircle from "./components/cursor-gradient";
 
 
 function GlassyWebsite() {
     return (
         <div style={{ backgroundColor: "#10172a"}}>
+            <CursorCircle/>
                 <Container>
                     <LeftContainer>
                         <NameHeader>Mugunthan Ramesh</NameHeader>
