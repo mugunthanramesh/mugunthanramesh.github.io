@@ -3,10 +3,12 @@ import React from 'react';
 import styled from "styled-components";
 import {EducationList} from "../../config/education-list";
 import {EducationItem} from "./education-item";
+import {SectionHeader} from "../Container";
 
 const Education = () => {
     return (
         <section id="education">
+            <SectionHeader>Education</SectionHeader>
             <ExperienceContainer>
                 {EducationList.map((education) => (
                     <EducationItem

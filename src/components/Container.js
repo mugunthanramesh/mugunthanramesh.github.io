@@ -48,3 +48,10 @@ export const Wrapper = styled.div`
   height: 100vh;
   overflow: hidden;
 `;
+
+export const SectionHeader = styled.h2`
+    color: #61dafb;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+`;

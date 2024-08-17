@@ -3,10 +3,12 @@ import React from 'react';
 import {ExperienceItem} from "./experience-item";
 import {ExperienceList} from "../../config/experience-list";
 import styled from "styled-components";
+import {SectionHeader} from "../Container";
 
 export const Experience = () => {
     return (
         <ExperienceContainer>
+            <SectionHeader>Work Experience</SectionHeader>
             <div>
                 {ExperienceList.map((item) => (
                     <ExperienceItem
@@ -18,9 +20,6 @@ export const Experience = () => {
                     />
                 ))}
             </div>
-            <ResumeLink>
-                <a href="/Mugunthan%20R.pdf">My Resume <span className="link-arrow">↗</span></a>
-            </ResumeLink>
         </ExperienceContainer>
     );
 }
@@ -31,7 +30,7 @@ const ExperienceContainer = styled.div`
     justify-content: space-between;
 `;
 
-const ResumeLink = styled.a`
+export const ResumeLink = styled.a`
     color: rgba(225, 225, 225, 1);
     font-size: 18px;
     font-weight: bold;

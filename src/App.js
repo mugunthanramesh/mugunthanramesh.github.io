@@ -1,11 +1,12 @@
 import React from 'react';
 import {Container, LeftContainer, RightContainer, Wrapper} from "./components/Container";
 import {Intro} from "./components/intro/intro";
-import {Experience} from "./components/experience/experience";
+import {Experience, ResumeLink} from "./components/experience/experience";
 import {NameHeader} from "./components/intro/nameHeader";
 import {SocialLinks} from "./components/social-links";
 import CursorCircle from "./components/cursor-gradient";
 import Education from "./components/education/education";
+import Projects from "./components/project/projects";
 
 
 function GlassyWebsite() {
@@ -18,13 +19,15 @@ function GlassyWebsite() {
                         <br/>
                         <br/>
                         <Intro/>
+                        <ResumeLink>
+                            <a href="/Mugunthan%20R.pdf">My Resume <span className="link-arrow">↗</span></a>
+                        </ResumeLink>
                         <SocialLinks/>
                     </LeftContainer>
                     <RightContainer>
-                        <br/>
                         <Experience/>
-                        <br/>
                         <Education/>
+                        <Projects/>
                     </RightContainer>
                     {/* Add more GlassContainer components as needed */}
                 </Container>
